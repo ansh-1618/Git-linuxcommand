@@ -1,11 +1,13 @@
-- git --version  (check version of git)
-- git config --global user.email "anshvermaspps@gmail.com" (add your email to git)
-- git config --global user.name "ansh-1618" (add your username to git)
-- cd (change dir.)
-- ls (list all the files in the directory)
+- git --version    (check version of git)
+- git config --global user.email "anshvermaspps@gmail.com"       (add your email to git)
+- git config --global user.name "ansh-1618"                                  (add your username to git)
+- cd       (change dir.)
+- ls        (list all the files in the directory)
 - git init
 
-- defaults write com.apple.finder AppleShowAllFiles YES  (to see hidden/invisible files ; press opt+comm key , right click on finder and relaunch) (if at the last you write NO instead of YES the files will again become invisible)
+- defaults write com.apple.finder AppleShowAllFiles YES    
+(to see hidden/invisible files ; press opt+comm key , right click on finder and relaunch) 
+(if at the last you write NO instead of YES the files will again become invisible)
 
 - touch filename      (To create a new file)
 - git status
@@ -17,18 +19,22 @@
 - git remote add origin "location of remote repo"
 - git push -u origin "branchname"
 
-**********- git --help ********(It will show all the options you have for GitHub)*****************(v.imp.)
-- git config --global https.proxy https://iit2019167:2001-11-26@172.31.2.3:8080 (for http just write http in place of https)
-- vi ~/.gitconfig  (shows the current http and https proxy)
-- git config --global --unset http.proxy (for unsetting/removing the proxy)
-- git config --global --unset https.proxy (for unsetting/removing the proxy)
+
+
+- git --help          (It will show all the options you have for GitHub)
+
+
+- git config --global https.proxy https://iit2019167:2001-11-26@172.31.2.3:8080       (for http just write http in place of https)
+- vi ~/.gitconfig                (shows the current http and https proxy)
+- git config --global --unset http.proxy             (for unsetting/removing the proxy)
+- git config --global --unset https.proxy          (for unsetting/removing the proxy)
 - git branch "newbranchname"
 - git checkout "branchname"
-- git checkout -b "newbranchname"   (using this u can create and checkout the new branch at the same time) 
+- git checkout -b "newbranchname"              (using this u can create and checkout the new branch at the same time) 
 - git merge "branchname"
-- git branch -d "branchname"    (to delete branch from local which is fully merged to master)
-- git branch -D "branchname"    (to force delete a branch from local without merging with master)  
-- git push origin --delete "branchname"  (To delete branch from remote repository) 
+- git branch -d "branchname"                        (to delete branch from local which is fully merged to master)
+- git branch -D "branchname"                       (to force delete a branch from local without merging with master)  
+- git push origin --delete "branchname"       (To delete branch from remote repository) 
 - git pull   (Pulls committed changes from remote repository)  
 
 
@@ -38,5 +44,5 @@ Cloning- after forking you clone your repository to create a local copy on your 
 
 Git Pull- it is used to fetch and download content from remote repository and imm update the local repo.
 
-- git pull <remote> <remote branch_name>   (<remote>-repo from where u want to pull)
+- git pull <remote> <remote branch_name>         (<remote>-repo from where u want to pull)
 - git remote add<remote_name><link>
