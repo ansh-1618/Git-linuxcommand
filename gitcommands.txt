@@ -1,1 +1,18 @@
-Cruisin	
+- git --version  (check version of git)
+- git config --global user.email "anshvermaspps@gmail.com" (add your email to git)
+- git config --global user.name "ansh-1618" (add your username to git)
+- cd (change dir.)
+- ls (list all the files in the directory)
+- git init
+- defaults write com.apple.finder AppleShowAllFiles YES  (to see hidden/invisible files ; press opt+comm key , right click on finder and relaunch) (if at the last you write NO instead of YES the files will again become invisible)
+
+- touch filename      (To create a new file)
+- git status
+- git add filename    (Staging or tracking the file)
+- git add *.txt       (for all files of the mentioned extension)
+- git add *.*         (for all files)
+- git add .           (For all files)
+- git commit -m "message"        (to commit your changes)
+- git remote add origin "location of remote repo"
+- git push -u origin "branchname"
+- git --help          (It will show all the options you have for GitHub)
