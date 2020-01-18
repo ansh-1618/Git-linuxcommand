@@ -17,7 +17,7 @@
 - git remote add origin "location of remote repo"
 - git push -u origin "branchname"
 
-- git --help          (It will show all the options you have for GitHub)
+**********- git --help ********(It will show all the options you have for GitHub)*****************(v.imp.)
 - git config --global https.proxy https://iit2019167:2001-11-26@172.31.2.3:8080 (for http just write http in place of https)
 - vi ~/.gitconfig  (shows the current http and https proxy)
 - git config --global --unset http.proxy (for unsetting/removing the proxy)
